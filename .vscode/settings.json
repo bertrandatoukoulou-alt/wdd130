@@ -51,11 +51,13 @@
   "fiveServer.port": 5501,
   "fiveServer.injectBody": false,
   "liveServer.settings.port": 5504,
-
   // disable copilot chat
   "chat.agent.enabled": false,
-  "chat.disableAIFeatures": true,
+  "chat.disableAIFeatures": false,
   "chat.commandCenter.enabled": false,
   "inlineChat.accessibleDiffView": "off",
-  "terminal.integrated.initialHint": false
+  "terminal.integrated.initialHint": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
 }
