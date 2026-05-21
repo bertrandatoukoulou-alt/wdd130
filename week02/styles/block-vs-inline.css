@@ -9,13 +9,13 @@ body {
 }
 
 p,
-div {
+span {
     background-color: beige;
     margin: 1rem;
     padding: 1rem;
 }
 
-span {
+div {
     color: navy;
     background-color: lightblue;
 }
