@@ -59,5 +59,8 @@
   "terminal.integrated.initialHint": false,
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
-  }
+  },
+  "cSpell.words": [
+    "socialmedia"
+  ]
 }
