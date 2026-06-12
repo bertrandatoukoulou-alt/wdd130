@@ -129,6 +129,10 @@ nav a {
     margin: 0 auto;
 }
 
+.adventure h2 {
+    text-align: center;
+}
+
 .adventure figure {
     text-align: center;
 }
