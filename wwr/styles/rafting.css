@@ -136,7 +136,7 @@ header nav a {
 
 .team h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
     margin-bottom: 20px;
 }
 
@@ -274,7 +274,7 @@ nav a {
     width: 100%;
     text-align: center;
     background-color: var(--accent2-color);
-    color: #720074;
+    color: #3c0096;
     opacity: 0.8;
     padding: 16px;
     font-family: var(--heading-font);
@@ -287,7 +287,7 @@ nav a {
     left: 20px;
     right: 20px;
     background-color: var(--accent1-color);
-    color: var(--secondary-color);
+    color: #ec5f07;
     padding: 10px;
     border-radius: 6px;
     display: flex;
@@ -312,7 +312,7 @@ nav a {
     text-align: center;
     margin-bottom: 20px;
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: #f55e00;
 }
 
 .history-grid {
@@ -343,6 +343,7 @@ nav a {
     align-items: center;
     text-align: center;
     margin: 40px;
+    color: #ff5e00;
 }
 
 .adventure figure {
@@ -409,7 +410,7 @@ div {
 code {
     margin: 0;
     padding: 0;
-    color: green;
+    color: rgb(28, 0, 165);
     font-size: 1.2rem;
 }
 
