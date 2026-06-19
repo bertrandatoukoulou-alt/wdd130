@@ -16,7 +16,7 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    background-color: #06469f;
+    background-color: #ffffff;
     line-height: 1.6;
 }
 
@@ -66,6 +66,32 @@ header nav a {
     margin: 0px
 }
 
+.trip-descriptions .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 3 equal columns */
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.trip-descriptions img {
+    width: 100%;
+    /* makes all images fill their column */
+    height: 800px;
+    /* crops images to fit without distortion */
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    padding: 5px;
+    margin: 2px;
+}
+
+.trip-descriptions h2,
+p {
+    text-align: center;
+    position: relative;
+}
+
 .cta {
     background-color: #ffffff;
     text-align: center;
@@ -85,92 +111,26 @@ header nav a {
     font: caption;
 }
 
+.cta img {
+    display: flex;
+    margin: 2rem;
+}
+
 .trip-options h4 {
     color: #ffffff;
     font-size: 1.2rem;
 }
 
-.hero {
-    position: relative;
-    text-align: center;
-    color: white;
+.trip-table {
+    display: grid;
 }
 
-.hero img {
+.trip-table th {
+    text-align: start;
+    font-size: larger;
+    color: #6f00ff;
+    text-underline-position: initial;
 
-    width: 100%;
-    object-fit: cover;
-}
-
-.hero h1,
-.hero p,
-.hero .btn {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.hero h1 {
-    top: 10%;
-    font-size: 5rem;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 0.5rem 1rem;
-    opacity: 0.8;
-}
-
-.hero p {
-    top: 60%;
-    padding: 0.5rem 1rem;
-    position: absolute;
-    font-size: x-large;
-    background: #010009;
-    opacity: 0.6;
-    border: 1rem;
-}
-
-.newsletter {
-    max-width: 400px;
-    margin: 30px auto;
-    padding: 20px;
-    background: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
-}
-
-.newsletter h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.newsletter label {
-    display: block;
-    margin: 10px 0 5px;
-    font-weight: bold;
-}
-
-.newsletter input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.newsletter button {
-    width: 100%;
-    padding: 12px;
-    background: #0077cc;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.newsletter button:hover {
-    background: #005fa3;
 }
 
 /* Footer */
