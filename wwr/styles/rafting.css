@@ -83,6 +83,12 @@ header nav a {
     border-radius: 8px;
 }
 
+.contact-right h3 {
+    text-align: center;
+    justify-content: center;
+
+}
+
 .contact-right form {
     display: flex;
     flex-direction: column;
@@ -113,6 +119,7 @@ header nav a {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    text-align: center;
 }
 
 .contact-right button:hover {
